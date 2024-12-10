@@ -152,20 +152,29 @@ div#logo{
 }
 
 .s5{
-    height: 400px;
-    background-color: #EEEEEE;
-    width: 95vw;
-    margin: auto;
-    border-radius: 10px;
-    box-shadow: 0px 2px 14px -1px rgba(0,0,0,0.62);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
     
 }
-.a51> p,h1{
+/* article 1 */
+.art1{
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.37);
+}
+.art1> p,h1{
     
 text-align: center;
 }
-.a51 >p{
+.art1 >p{
     font-size: 13px;
+}
+
+
+/* article2 */
+.art2{
+ margin: auto;   
 }
 .end{
     text-decoration: none;
@@ -175,8 +184,16 @@ text-align: center;
 .end:hover{
     text-decoration: underline;
 }
-.p1-5{
+.p-art2{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+/* article 3 */
+.art3{
+   
+}
+.p-art3{
+
+    text-align: center;
 }
