@@ -78,19 +78,21 @@ div#logo{
     margin-top: 70px;
  }
 /* section 4 */
+
 .s4{
+    
     margin-top: 100px;
     margin: auto;
-    background-image: url(caminhao.png);
-    background-position: center center ;
-   
+    background-image: url(img-carro-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 420px;
+    height: 370px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     justify-content: space-around;
+    filter: blur();
+    background-color: black;
     
 }
 .txt-s4{
@@ -100,17 +102,18 @@ div#logo{
     font-size: 17px;
     
     display: inline-block;
-    border-radius: 10px;
+  
     text-align: center;
     height: 100px;
     padding: 10px;
-
+    
     
 }
 .h1-s4{
     text-align: center;
     margin-bottom: 10px;
     font-weight: bolder;
+    
     }
 .orcamento{
     width: 200px;
@@ -153,15 +156,20 @@ div#logo{
 
 .s5{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-evenly;
+    flex-direction: column;
+   
+
+   
     
 }
 /* article 1 */
 .art1{
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.37);
+    background-color: #eeeeee6b;
+    width: 92vw;
+    border-radius: 6px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
 }
 .art1> p,h1{
     
@@ -170,30 +178,64 @@ text-align: center;
 .art1 >p{
     font-size: 13px;
 }
+.icon1{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 20px;
 
+ 
+}
 
 /* article2 */
 .art2{
- margin: auto;   
+    background-color: #eeeeee6b;
+    margin-top: 20px;
+ margin: auto; 
+ width: 92vw;
+ border-radius: 6px;
+ margin: auto;
+ padding: 10px;
+ margin-top: 20px;  
 }
 .end{
+    margin-top: 25px;
     text-decoration: none;
     color: black;
     font-size: 18px;
 }
-.end:hover{
+.linkend{
+    text-decoration: none;
+    color: black;
+}
+.linkend:hover{
     text-decoration: underline;
 }
 .p-art2{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 /* article 3 */
 .art3{
-   
+   margin: auto;
 }
 .p-art3{
-
+    margin-top: 20px;
     text-align: center;
+    margin-bottom: 10px;
+}
+#telefone{
+    text-align: center;
+}
+#gmail{
+    text-align: center;
+}
+
+
+.map{
+    width: 85vw;
+    margin: auto;
+    height: 300px;
+    border-radius: 10px;
 }
