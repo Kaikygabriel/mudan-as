@@ -10,3 +10,11 @@ function sobre(){
         behavior:"smooth",
     })
 }
+
+function voltar(){
+    window.scroll({
+        top:0,
+        left:0,
+        behavior:"smooth",
+    })
+}
