@@ -9,6 +9,9 @@
     
 }
 
+.h12{
+    font-size: 30px;
+}
 header{
     background-color: #F7D102;
     height: 330px;
@@ -23,6 +26,7 @@ header{
     top: 90%;
     left: 85%;
     z-index: 8;
+    border: 1px solid black;
 }
 /* section 1 */
 .sevico{
@@ -129,6 +133,7 @@ div#logo{
     text-align: center;
     margin-bottom: 10px;
     font-weight: bolder;
+    color: #F7D102 ;
     
     }
 .orcamento{
@@ -165,16 +170,12 @@ div#logo{
 }
 
 /* section 5 */
-.h1-s5{
-    margin-top: 100px;
-    text-align: center;
-    margin-bottom: 10px;
-}
+
 
 .s5{
     display: flex;
     flex-direction: column;
-   
+   margin-top: 100px;
 
    
     
@@ -219,6 +220,7 @@ text-align: center;
     margin-top: 25px;
     text-decoration: none;
     color: black;
+    color: #F7D102;
     font-size: 18px;
 }
 .linkend{
@@ -232,6 +234,7 @@ text-align: center;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
+    font-size: 20px;
 }
 /* article 3 */
 .art3{
@@ -241,6 +244,7 @@ text-align: center;
     margin-top: 20px;
     text-align: center;
     margin-bottom: 10px;
+    color: #F7D102;
 }
 #telefone{
     text-align: center;
@@ -265,40 +269,178 @@ text-align: center;
     text-align: center;
     margin-top: 100px;
     margin-bottom: 20px;
+    color: #F7D102;
+    font-size: 30px;
     
 }
 /* article 6 */
 .art6{
+    box-shadow: 0px 7px 22px -6px rgba(0,0,0,0.7);
+    background-color: black;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
+    padding: 20px;
     align-items: center;
-}
-#img-a1{
-    height: 200px;
-    width: 200px;
-}
-#img-a2{
-    height: 200px;
-    width: 200px;
-}
-/*article7   */
-.art7{
-    display: flex;
-    flex-direction: row;
-  
-    justify-content: space-around;
-    align-items: center;
-}
-#img-a3{
-    height: 200px;
-    width: 200px;
-}
-#img-a4{
-    height: 200px;
-    width: 200px;
+    border-radius: 40px;
 }
 
-#toque{
+.imga{
+    box-shadow: 0px 7px 22px -6px rgba(0,0,0,0.7);
+    width: 80vw;
+    height: 350px;
+    margin-top: 20px;
+    border-radius:10px ;
+}
+/* seciton 7 */
+.s7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.s7-div{
+    margin: auto;
+    background-color: black;
+    padding: 30px;
+    margin-top: 100px;
+    box-shadow: 0px 7px 22px -6px rgba(0,0,0,0.7);
+}
+.s7-div > p{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.av{
+    color: #F7D102;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.div-img7{
+    border-radius: 40px;
+    width: 100vw;
+    background-color: #F7D102;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    padding: 10px;
+}
+.div-img7 > img{
+    width: 87vw;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 7px;
+    background-size: cover;
+    box-shadow: 0px 7px 22px -6px rgba(0,0,0,0.7);
+}
+#google{
+    width: 95vw;
+    
+}
+/* section 8 */
+.s8{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h1-s8{
+    display: inline-block;
+   
+    text-align: center;
+    margin-bottom: 20px;
+    color: #F7D102;
+    border-bottom: 1px solid black;
+    font-size: 30px;
+   
+}
+.s8 > p {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 17px;
+}
+/* footer */
+.s9{
+   
+    margin-top: 100px;
+}
+
+#amarelo{
+
+    height: 260px;
+    background-color: #F7D102;
+    
+ 
+   
+}
+#ps9{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#ps9 > img{
+    width: 40vw;
+    height: 150px;
+    margin: auto;
+    margin-top: -3px;
+}
+.menu{
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px;
+}
+.menu1{
+    display: flex;
+    justify-content: center;
+    
+}
+#preto{
+    background-color: black;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#preto > p  > img{
+    width: 17vw;
+    height: 60px;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+#puli {
     display: none;
+    width: 20vw;
+    background-color: black;
+   display:flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 6px;
+   margin: auto;
+    
+}
+#puli > ul > li {
+    display: none;
+    text-decoration: none;
+    color: white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+#publi > ul{
+    text-decoration: none;
 }

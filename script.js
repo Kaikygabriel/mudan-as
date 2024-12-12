@@ -6,7 +6,7 @@ function clicous(){
 }
 function sobre(){
     window.scroll({
-        top: 900,
+        top: 4800,
         behavior:"smooth",
     })
 }
