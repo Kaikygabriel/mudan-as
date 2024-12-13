@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* STYLE PC */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+:root{
+    --amarelo:#F7D102;
+    
+}
+body{
+   
+}
+#logo{
+    height: 200px;
+    width: 200px;
+}
+.s4{
+    height: 550px;
+}
+.s4 > article {
+    height: 275px;
+}
+.div-img7 > img{
+    height: 250px;
+    width: 500px;
+}
+#google{
+    height: 300px;
+    width: 600px;
+}
+.art6 >img{
+    margin-bottom: 20px;
+    height: 500px;
+    width: 500px;
+}
+.oimg{
+    height: 100px;
+    width: 400px;
+    cursor: pointer;
+}
+.oimg > img{
+    height: 100px;
+    width: 150px;
+}
+.orcamento{
+    cursor: pointer;
+}
+#ps9 >  img{
+    height: 180px;
+    width: 200px;
+}
+#preto > p > img{
+    cursor: pointer;
+    height: 92px;
+    width: 92px; 
+}

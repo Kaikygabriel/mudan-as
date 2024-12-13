@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mundaças D.L.I</title>
+    <!-- celular -->
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+    <!-- computador\ televisão -->
+    <link rel="stylesheet" href="style-pc.css" media="screen and (min-width :1023px)">
+    <!-- celular deitado -->
+     <link rel="stylesheet" href="style-deitado.css" media="screen and (landscape)">
     
 </head>
 <body>
@@ -14,7 +18,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M440-80v-647L256-544l-56-56 280-280 280 280-56 57-184-184v647h-80Z"/></svg>
     </div>
     <header>
-        <section class="s1">
+        <section class="s1" >
             <p class="sevico" onclick="clicous()">
             Serviços
             </p>
@@ -49,12 +53,14 @@
             </article>
       
 
-            <div class="black">
-                <div class="orcamento">
-                    <p>Orçamento</p>
-                    <img src="zap.png" alt="">
-                </div>
-            </div>
+            <article class="black">
+                <a href="#">
+                    <div class="orcamento">
+                        <p>Orçamento</p>
+                        <img src="zap.png" alt="">
+                    </div>
+                </a>
+            </article>
        
         </div>
        
@@ -130,7 +136,13 @@
               >
                 <img src="a5.jpeg" alt=""class="imga"
                 >
-            </article>
+                <a href="#">
+                    <div class="oimg">
+                        <p>Orçamento </p>
+                        <img src="zap.png" alt="">
+                    </div>
+                                </article>
+                </a>
            
         </section>
         <section class="s8">
@@ -145,25 +157,18 @@
 
         <div id="amarelo">
             <p id="ps9"><img src="logo1.png" alt=""></p>
-            <div id="puli">
-                <ul>
-                    <li class="ii">Contato</li>
-                    <li>Ajuda</li>
-                </ul>
-            </div>
-            <div class="menu1">
-                <p class="menu" onclick="menu()">
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#000000"><path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/></svg>
-                </p>
-            </div>
-        </div>
+          
+        </div> 
 
         <div id="preto">
-          <p>
-            <img src="zap.png" alt="">
-          </p>
-          <p><img src="insta.jpg" alt=""></p>
+          <a href="#">
+              <p>
+                <img src="zap.png" alt="">
+              </p>
+          </a>
+          <a href="#">
+              <p><img src="insta.jpg" alt=""></p>
+          </a>
         </div>
     </section>
 
